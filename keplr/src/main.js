@@ -110,9 +110,9 @@ window.onload = async () => {
                     coinType: 118,
                     // Make sure that the gas prices are higher than the minimum gas prices accepted by chain validators and RPC/REST endpoint.
                     gasPriceStep: {
-                        low: 0.00,
-                        average: 0.00,
-                        high: 0.025
+                        low: 0.01,
+                        average: 0.025,
+                        high: 0.03
                     }
                 });
             } catch {
