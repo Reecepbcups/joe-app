@@ -11,29 +11,14 @@ import {
 } from '@cosmjs/stargate'
 
 // do not use Nodejs 17, nvm use 16.x.x. nvm run 16.13.1
-const request = require('request');
+// const request = require('request');
 
 // npm install webpack-dev-server -g
 
 const name = "Just Joe"
-const CHAIN_ID = "joe-1"; // test_node.sh
-const RPC_ENDPOINT = "http://95.217.113.126:26657";
-const REST_ENDPOINT = "http://95.217.113.126:1317";
-
-const STARGAZE_REST = "https://api.stargaze.pupmos.network/cosmos/bank/v1beta1/balances/stars1q3scuwfpapydfzrkfssxuwccspewlp6sgnel53" // prize pool of NFT
-// {
-//     "balances": [
-//     {
-//     "denom": "ustars",
-//     "amount": "37017020682"
-//     }
-//     ],
-//     "pagination": {
-//     "next_key": null,
-//     "total": "1"
-//     }
-//     }
-
+const CHAIN_ID = "joe-1";
+const RPC_ENDPOINT = "https://joe-rpc.polkachu.com:443";
+const REST_ENDPOINT = "https://joe-api.polkachu.com:443";
 const bondDenom = "ujoe"; 
 const tokenDenom = "ujoe";
 
