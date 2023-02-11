@@ -51,7 +51,7 @@ window.onload = async () => {
                         coinDecimals: 6,
                         // (Optional) Keplr can show the fiat value of the coin if a coingecko id is provided.
                         // You can get id from https://api.coingecko.com/api/v3/coins/list if it is listed.
-                        // coinGeckoId: ""
+                        coinGeckoId: "bitcoin"
                     },
                     bip44: {
                         // You can only set the coin type of BIP44.
@@ -78,7 +78,7 @@ window.onload = async () => {
                         coinDecimals: 6,
                         // (Optional) Keplr can show the fiat value of the coin if a coingecko id is provided.
                         // You can get id from https://api.coingecko.com/api/v3/coins/list if it is listed.
-                        coinGeckoId: "terra-luna-2"
+                        coinGeckoId: "bitcoin"
                     }],
                     // List of coin/tokens used as a fee token in this chain.
                     feeCurrencies: [{
@@ -90,7 +90,7 @@ window.onload = async () => {
                         coinDecimals: 6,
                         // (Optional) Keplr can show the fiat value of the coin if a coingecko id is provided.
                         // You can get id from https://api.coingecko.com/api/v3/coins/list if it is listed.
-                        coinGeckoId: "terra-luna-2"
+                        coinGeckoId: "bitcoin"
                     }],
                     coinType: 118,
                     // Make sure that the gas prices are higher than the minimum gas prices accepted by chain validators and RPC/REST endpoint.
