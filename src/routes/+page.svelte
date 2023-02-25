@@ -4,7 +4,7 @@
 -->
 <script lang="ts">
 	import type { Window as KeplrWindow } from '@keplr-wallet/types';
-
+	import Review from '../components/Review.svelte'
 	import type { Coin } from 'cosmjs-types/cosmos/base/v1beta1/coin';
 	import { SigningStargateClient, StargateClient, type StdFee } from '@cosmjs/stargate';
 
@@ -146,6 +146,7 @@
 
 	// call test_query on page load
 	test_query()
+
 </script>
 
 
@@ -188,7 +189,7 @@
 		<ul>
 		{#each reviews as review}
 			<li style="">
-				{review}				
+				<Review content={review}></Review>
 			</li>
 		{/each}
 		</ul>
