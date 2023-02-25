@@ -1,3 +1,3 @@
-justjoe.app
+# joe webapp
 
-> npm start dev
+sh run.sh
