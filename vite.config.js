@@ -5,7 +5,11 @@ const config = {
 	plugins: [sveltekit()],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
-	}
+	},
+	server: {
+        host: true,
+        port: 8080
+    }
 };
 
 export default config;
