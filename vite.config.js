@@ -9,7 +9,10 @@ const config = {
 	server: {
         host: true,
         port: 8080
-    }
+    },
+	preview: {
+		port: 8080,
+	},
 };
 
 export default config;
